@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Css/style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="All">
+    <div class="allcontent">
+        <div class="header">
+            <div class="logo">
+                <img class="mylogo" src="./pictures/icons8-open-book-100 (1).png" alt="My Logo">
+                <span class="matnlogo">Logo</span>
+            </div>
+            <div class="list">
+                <div class="hamb" onclick="toggleMenu()"> <img class="hamburger" src="./pictures/hamburger list.png" alt="hamburger"> </div>
+
+                  <ol class="menu">
+                      <li><a class="list-a" href="#">Home </a></li><hr>
+                      <li><a class="list-a" href="#">courses </a></li><hr>
+                      <li><a class="list-a" href="#">About </a></li><hr>
+                      <li><a class="list-a" href="#">Blog </a></li><hr>
+                      <li><a class="list-a" href="#">Contact </a></li><hr>
+                  </ol>
+
+                
+                <a class="header-a" href="#">Home</a>
+                <a class="header-a" href="#">courses</a>
+                <a class="header-a" href="#">About</a>
+                <a class="header-a" href="#">Blog</a>
+                <a class="header-a" href="#">Contact</a>
+                <input class="sabtnam" type="button" value="sign up">
+            </div>
+        </div>
+
+         <div class="content">
+             <div class="matnha">
+                <div class="h"><p>Learn <br> Without <br> Limits</p></div>
+                <div class="h2"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt earum magnam eligendi. Et est alias error ad similique.</p></div>
+                <div class="dokme1">
+                    <input class="dokmestart" type="button" value="Get Started">
+                    <input class="dokmebrowse" type="button" value="Browse Courses">
+                </div>
+              </div>
+              <div class="div-ax">
+                <img class="ax" src="./pictures/عکس قبلی که برام شاخ.png" alt="عکس دختره">
+              </div>
+         </div>
+
+
+           <div class="content2">
+            <div>
+              <p class="popularbozorg">popular courses</p>
+              <p class="loremkochik">lorem ipsom dolor sit amet, consectetur dipiscing elit.</p>
+             </div>
+
+             <div class="boxha">
+
+              <div class="box1">
+                <div class="content-div1">
+                  <img class="star-icon" src="./pictures/icons8-star-100.png" alt="star pic">
+                  <p class="asli-div1">Web Development</p>
+                  <p class="farei-div1"> lorem ipsum dolor sit,amet,consectetur adipis-cicing elit. Dusec</p>
+                </div>
+              </div>
+
+              <div class="box2">
+                <div class="content-div2">
+                  <img class="video-icon" src="./pictures/video cicled.webp" alt="video icon">
+                  <p class="asli-div2">Data Science</p>
+                  <p class="farei-div2"> lorem ipsum dolor sit,amet,consectetur adipis-cicing elit. Dusec scele-</p>
+                </div>
+              </div>
+
+              <div class="box3">
+                <div class="content-div3">
+                  <img class="chart-icon" src="./pictures/icons8-combo-chart-100.png" alt="chart icon">
+                  <p class="asli-div3">Digital Marketing</p>
+                  <p class="farei-div3"> lorem ipsum dolor sit,amet,consectetur adipis-cicing elit. Duls art asse.</p>
+                </div>
+              </div>
+
+
+             </div>
+
+           </div>
+
+
+
+          <div class="content3">
+
+            <div class="content3-chapi">
+              <p class="asli-content3">Student Testomnials</p>
+              <br> 
+              <p class="farei-content3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Egestas purus viverra accumsan in nisl nisi
+              </p>
+              <input class="mammli-dev" type="button" value="Mammli-Dev">
+            </div>
+
+            <div class="content3-rasti">
+              <div class="div-vasat" style="margin-top: 40px;">
+                <img class="profile-icon" src="./pictures/icons8-profile-100.png" alt="profile icon">
+                <p class="profile-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Egestas purus viverra accumsan in nisl nisi</p>
+              </div>
+            </div>
+           </div>
+          <div class="content4">
+            <div class="content4-chapi">
+              <div class="vasat-content4">
+                <p class="contact">Contact us</p> 
+                <p class="contact-farei">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+              </div>
+            </div>
+
+            <div class="content4-rasti">
+              <div class="div-form">
+                <label class="kalame-name" for="nam">Name:</label><br><input class="box-name" type="text" name="Name" id="nam"><br>
+                <label class="kalame-email" for="Email">Email:</label><br><input class="box-email" type="email" name="Email" id="Email"><br>
+                <label class="kalame-message" for="payam">Message:</label><br><textarea class="box-message" name="Message" id="payam"></textarea>
+              </div>
+            </div>
+          </div>
+
+
+
+    </div>
+
+</div>
+
+<script>
+  function toggleMenu() {
+    const menu = document.querySelector('.menu');
+    menu.style.display = menu.style.display === 'flex' ? 'none' : 'flex';
+  }
+ const hamburger = document.querySelector('.hamburger');
+const menu = document.querySelector('.menu');
+
+function toggleMenu() {
+  menu.style.display = menu.style.display === 'flex' ? 'none' : 'flex';
+  hamburger.classList.toggle('active');
+}
+
+document.addEventListener('click', function(e) {
+  // اگه کلیک بیرون از منو و همبرگر بود
+  if (!menu.contains(e.target) && !hamburger.contains(e.target)) {
+    menu.style.display = 'none';
+    hamburger.classList.remove('active'); // حذف چرخش
+  }
+});
+
+
+</script>
+
+
+</body>
+</html>

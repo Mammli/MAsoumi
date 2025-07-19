@@ -1,0 +1,485 @@
+
+
+
+
+
+body{
+    font-family: "poppins";
+}
+/*قسمت بالایی شروع*/
+.header{
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(to right, #1a2238, #2c3e50);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 20px;
+}
+.header-a:active{
+    transform: scale(0.9);
+
+}
+.header-a:hover{
+    color: #999;
+}
+.header-a{
+    text-decoration: none;
+    color: #fff;
+    transition: transform 0.2s;
+
+}
+.sabtnam:hover{
+    background-color: #ffffff;
+    color:#ff6600 ;
+    cursor: pointer;
+}
+.sabtnam:active{
+    transform: scale(0.9);
+}
+.sabtnam{
+    background-color: #ff6600;
+    color: #fff;
+    width: 80px;
+    height: 34px;
+    border-radius: 7px;
+    border: none;
+    transition: all 0.2s;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 20px;
+}
+.logo:hover{
+    cursor:default;
+}
+.matnlogo{
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+  
+
+}
+.mylogo{
+    height: 30px;
+    width: 30px;
+
+}
+/*تموم شد هدر و قسمت بالایی*/
+.content{
+    color: #fff;
+    background-color: rgb(0,20,36);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 19%;
+    height: 700px;
+}
+.matnha{
+    margin: 50px;
+    margin-left: 150px;
+}
+.h{
+    font-size: 70px;
+    margin-top: -20pxs;
+}
+.h2{
+    margin-bottom: 50px;
+}
+.ax{
+    width: 110%;
+    height: 100%;
+    object-fit: cover;
+    margin-left: -40%;
+}
+.dokme1{
+    display: flex;
+    justify-content: start;
+    gap: 30px;
+    margin-bottom: 100px;
+}
+.dokmestart{
+    background-color: #ff6600;
+    border-radius: 10px;
+    width: 120px;
+    height: 50px;
+    border: none;
+    color: #fff;
+    transition: transform 0.2s;
+}
+.dokmestart:hover{
+    cursor: pointer;
+    background-color: #fc802d;
+}
+.dokmestart:active{
+    transform: scale(0.95);
+}
+.dokmebrowse{
+    background-color: rgb(0,20,36);
+    border-radius: 10px;
+    width: 120px;
+    height: 50px;
+    border-color: white;
+    color: #fff;
+    transition: transform 0.2s;
+}
+.dokmebrowse:hover{
+    cursor: pointer;
+    background-color: rgb(13, 29, 43);
+}
+.dokmebrowse:active{
+    transform: scale(0.95);
+}
+@media (max-width:730px){
+    .header-a{
+        display: none;
+
+    }
+    .sabtnam{
+        display: none;
+    }
+}
+@media (min-width: 730px){
+    .hamburger{
+        display: none;
+    }
+}
+@media (max-width: 940px){
+    .ax{display: none;}
+}
+@media (max-width: 380px){
+    .dokme1{
+        display: grid;
+        align-items: center;
+        
+    }
+    .matnha{
+        margin-left: 35%;
+    }
+}
+.hamburger {
+  width: 30%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+.hamburger:hover{
+    cursor: pointer;
+}
+.hamburger.active {
+  transform: rotate(90deg);
+}
+ol{
+    list-style-position: inside;
+    list-style-type: none;
+}
+.menu {
+  display: none;
+  flex-direction: column;
+  background-color: #1f2a38;
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.list-a{
+    text-decoration: none;
+    color: #fff;
+    margin: -10px 0px;
+}
+
+.list-a:hover{
+    color: #999;
+}
+/*ادامه ی بدنه ی سایت*/
+
+.content2{
+    background-color: #fff;
+    border-style:solid ;border-color: #999;border-width: 1px;border-bottom-style: none;
+    height: auto;
+    padding-bottom: 50px;
+}
+.popularbozorg{
+    font-size: 60px;
+    margin-left: 150px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.loremkochik{
+    font-size: 18px;
+    font-weight: 300;
+    margin-left: 15%;
+    margin-bottom: 70px;
+}
+
+.boxha{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.box1 , .box2 , .box3{
+    width: 25%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0px 0px 3px 0.5px #999;
+    border: none;
+    transition: transform 0.2s;
+}
+.content-div1 , .content-div2 , .content-div3{
+    margin-top: 70px;
+    height: 80%;
+    margin-left: 30px;
+}
+.star-icon, .video-icon, .chart-icon{
+ width: 60px;height: 60px;
+}
+.asli-div1,.asli-div2,.asli-div3{
+    font-size: 2vw;font-weight: 600;margin: 0;margin-top: 5px;
+}
+.farei-div3, .farei-div2, .farei-div1{
+    margin-bottom: 70px;overflow-wrap: break-word; font-size: 1.2vw
+}
+.box1:hover , .box2:hover , .box3:hover{
+    transform: scale(1.02);
+    cursor: pointer;
+}
+.box1:active , .box2:active , .box3:active{
+   transform: scale(1);
+}
+@media (max-width:900px){
+    .star-icon, .video-icon, .chart-icon{
+        width:6vw ;height:6vw ;
+    }
+}
+
+@media (max-width:700px){
+
+    .box1 , .box2 , .box3{
+        height: 240px ;
+    }
+}
+.content3{
+    display: flex;justify-content: space-between;
+    background-color: rgb(0,20,36);
+    width: 100%;
+    height: 600px;
+    color: #fff;
+}
+.content3-chapi{
+    
+    width: 48%;
+    margin-left: 4%;
+    margin-top: 6%;
+}
+.asli-content3{
+    font-size: 50px;
+    margin-left: 50px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.farei-content3{
+    overflow-wrap: break-word;
+    margin-left: 50px;
+}
+.mammli-dev{
+    margin-top: 30px;
+    margin-left: 50px;
+    height: 45px;
+    width: 120px;
+    border-radius: 10px;
+    background-color: #1f2a38;
+    border: none;
+    color: #fff;
+    font-family: "poppins";
+    transition: all 0.2s;
+}
+.mammli-dev:hover{
+    background-color: #2c3e50;
+    color:#fff ;
+    cursor: pointer;
+}
+.mammli-dev:active{
+    transform: scale(0.9);
+}
+.content3-rasti{
+    margin-right: 0;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    
+
+}
+.div-vasat:hover{
+    transform: scale(1.04);
+}
+.div-vasat{
+    padding-top: 100px;
+    background-color: rgb(0, 17, 31) ;
+    width: 50%;
+    height: 70%;
+    margin: 0 auto;
+    margin-top: 25px;
+    border-radius: 25px;
+    padding-left:15px ;
+    padding-right:15px ;
+    transition: all 0.2s;
+    overflow: hidden;           /* مخفی کردن متن اضافه */
+
+}
+/*content4-start*/
+.content4{
+    display: flex;
+    border-left: 1px solid #999;
+    border-right: 1px solid #999;
+    border-bottom: 1px solid #999;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.content4-chapi{
+width: 50%;
+}
+.content4-rasti{
+width: 40%;margin-left: 5%;
+background-color: rgb(0,20,36);
+margin-top: 30px;
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+color: #fff;
+padding-top: 50px;
+}
+@media (max-width:660px){
+    .asli-content3{
+        font-size: 30px;
+    }
+    .div-vasat{
+        padding-top: 20px;
+    }
+    .profile-info{
+        font-size: 14px;
+    }
+}
+@media (max-width: 450px){
+    .asli-content3{
+        font-size: 23px;
+    }
+    .farei-content3{
+        font-size: 13px;
+    }
+        .profile-info{
+        font-size: 11px;
+    }
+    .content3{
+        height: 500px;
+    }
+    .profile-icon{
+        width: 70px;height: 70px;
+    }
+}
+.content4-rasti{
+    margin-bottom: 0;
+
+}
+
+
+.kalame-name:hover , .kalame-email:hover, .kalame-message:hover{
+cursor: pointer;
+}
+.box-name{
+    border-radius: 5px;
+    border: none;
+    background-color: #1f2a38;
+    height: 25px;
+    width: 200px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+.box-email{
+    border-radius: 5px;
+    border: none;
+    background-color: #1f2a38;
+    height: 25px;
+    width: 200px;
+    margin-bottom: 10px;
+    color: #fff;
+    
+}
+.box-message{
+    border-radius: 5px;
+    border: none;
+    background-color: #1f2a38;
+    height: 40px;
+    margin-bottom: 30px;
+    width: 200px;
+    color: #fff;
+
+}
+.div-form{
+  margin: 0 auto;
+  height: 230px;
+  width: 210px;
+}
+
+@media (max-width: 450px) , (max-width: 550px){
+    .div-form{
+        width: 90%;
+    }
+    .box-name, .box-email, .box-message{
+        width: 100%;
+    }
+    .popularbozorg{
+        font-size: 40px;
+        margin-left: 20px;
+    }   
+    .asli-content3{
+        font-size: 20px;
+    }
+}
+@media (max-width:400px){
+    .content-div1, .content-div2, .content-div3{
+        margin-left: 10px;
+    }
+
+}
+.contact{
+  font-size: 40px;
+  font-weight: 600;
+}
+.contact_farei{
+    font-size: 30px;
+
+}
+.vasat-content4{
+    margin-left: 30px;
+    margin-right: 10px;
+}
+@media (max-width: 545px){
+
+    .contact{
+        font-size: 30px;
+    }
+    .contact-farei{
+        font-size: 15px;
+    }
+}
+@media (max-width:430px){
+    .contact{
+       font-size: 22px;
+       font-weight: 700;
+    } 
+   .contact-farei{
+      font-size: 15px;
+
+    }
+
+}
